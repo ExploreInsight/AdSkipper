@@ -14,6 +14,10 @@ You're vibing to your playlist. Then - **BAM** - an ad hits. You gotta tap your 
 - 🚀 **Runs in background** - stays active even when phone is locked
 - 🤫 **Quiet watching** - silently watches screen, doesn't bother you
 
+## The App
+
+![AdSkipper App](app/src/main/res/drawable/app_screenshot.jpg)
+
 ## How It Works
 
 ```
