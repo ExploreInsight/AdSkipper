@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/background">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎧 Ad Skipper"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triple-tap earbuds to skip ads"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="8dp" />
+
+    <!-- Status Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_status_card"
+        android:padding="20dp"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad Skipper needs setup"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🟢 PASSIVE — Watching for ads..."
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvAccessibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❌ Accessibility Service: DISABLED"
+            android:textSize="14sp"
+            android:textColor="#FF6B6B"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Enable Accessibility Service"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Start Media Service"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <!-- Instructions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_status_card"
+        android:padding="16dp"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How it works:"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. App watches screen silently\n2. When 'Skip Ad' appears → you hear a ting 🔔\n3. Triple-tap your earbud → ad skipped ✅\n4. Music controls work normally when no ad"
+            android:textSize="13sp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="8dp"
+            android:lineSpacingMultiplier="1.4" />
+
+    </LinearLayout>
+
+</LinearLayout>

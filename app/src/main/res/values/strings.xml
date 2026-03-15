@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ad Skipper</string>
+    <string name="accessibility_description">
+        Ad Skipper needs this permission to detect the \"Skip Ad\" button
+        on your screen and click it when you triple-tap your earbuds.
+        This service watches for ad skip buttons and intercepts earbud
+        media commands to trigger the skip action.
+    </string>
+</resources>
