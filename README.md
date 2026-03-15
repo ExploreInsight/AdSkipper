@@ -40,10 +40,10 @@ Nah, that's too much work. Just triple-tap your earbuds and keep going. 🎧
 ## ⚡ How It Works
 
 ```diff
-+ 1. App watches for "Skip Ad" button on screen
-+ 2. Button appears → you hear a ting 🔔
-+ 3. Triple-tap your earbuds → ad skipped ✅
-+ 4. Keep vibing without touching your phone
+ 1. App watches for "Skip Ad" button on screen
+ 2. Button appears → you hear a ting 🔔
+ 3. Triple-tap your earbuds → ad skipped ✅
+ 4. Keep vibing without touching your phone
 ```
 
 ---
